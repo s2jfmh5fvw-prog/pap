@@ -1,0 +1,4 @@
+name: Pap
+version: 1.0.0
+main: dev.pap.PapPlugin
+api-version: '1.21.11'
