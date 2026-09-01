@@ -1,4 +1,24 @@
-name: Pap
+name: yuuh92HomesTeams
 version: 1.0.0
 main: dev.pap.PapPlugin
 api-version: '1.21.11'
+description: Homes and themed teams for yuuh92's Peace and Purge SMP.
+author: yuuh92
+commands:
+  home:
+    description: Open and manage your homes.
+    usage: /home [set|delete|teleport] [name]
+  team:
+    description: Open and manage your team.
+    usage: /team [create|invite|accept|leave|home]
+  purge:
+    description: Show the current Peace and Purge phase.
+permissions:
+  yuuh92.homes.vip1:
+    default: false
+  yuuh92.homes.vip2:
+    default: false
+  yuuh92.homes.vip3:
+    default: false
+  yuuh92.admin:
+    default: op
