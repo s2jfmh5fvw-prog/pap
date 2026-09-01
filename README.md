@@ -17,5 +17,5 @@ When Vault and an Economy provider (such as a yuuh92 Economy integration) are pr
 
 Run `make` to build both server artifacts:
 
-- `build/pap-plugin.jar` — Paper plugin
+- `build/yuuh92-homesteams.jar` — Paper plugin
 - `build/pap-datapack.zip` — datapack
