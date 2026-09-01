@@ -1,0 +1,8 @@
+starting-balance: 0.0
+home-set-cost: 25.0
+home-teleport-cost: 10.0
+team-create-cost: 100.0
+team-home-set-cost: 50.0
+team-home-teleport-cost: 15.0
+peace-start-hour: 8
+purge-start-hour: 20

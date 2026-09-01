@@ -1,7 +1,7 @@
 .PHONY: all plugin datapack clean
 
 DIST := build
-PLUGIN := $(DIST)/pap-plugin.jar
+PLUGIN := $(DIST)/yuuh92-homesteams.jar
 DATAPACK := $(DIST)/pap-datapack.zip
 
 all: plugin datapack
@@ -9,7 +9,7 @@ all: plugin datapack
 plugin:
 	mvn --batch-mode --no-transfer-progress package
 	mkdir -p $(DIST)
-	cp target/pap-plugin-1.0.0.jar $(PLUGIN)
+	cp target/yuuh92-homesteams-1.0.0.jar $(PLUGIN)
 
 datapack:
 	mkdir -p $(DIST)
